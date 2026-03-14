@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36" version="29.5.2">
   <diagram name="Architecture Flow" id="E7EneJZhTmOfZacX2zKQ">
-    <mxGraphModel dx="1281" dy="1726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="427" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,7 +18,7 @@
             <mxPoint x="369.79999999999995" y="-121.2349999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dl5cqdAX6TXokI6yQ8Ju-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" value="&lt;span style=&quot;text-align: left;&quot;&gt;&amp;nbsp;Medical Entity Recognition&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(spaCy / SciSpaCy)&lt;/span&gt;" vertex="1">
+        <mxCell id="dl5cqdAX6TXokI6yQ8Ju-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" value="Medical Entity Extraction (spaCy)" vertex="1">
           <mxGeometry height="70" width="220" x="260" y="-220" as="geometry" />
         </mxCell>
         <mxCell id="dl5cqdAX6TXokI6yQ8Ju-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" value="Medical Term Simplification" vertex="1">
@@ -60,7 +60,7 @@
             <mxPoint x="369.71" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dl5cqdAX6TXokI6yQ8Ju-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" value="Feature Engineering&lt;br&gt; - Pixel normalization&lt;br&gt; - Tensor conversion using BLIP Processor" vertex="1">
+        <mxCell id="dl5cqdAX6TXokI6yQ8Ju-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" value="Download Simplified PDF" vertex="1">
           <mxGeometry height="70" width="240" x="255" y="380" as="geometry" />
         </mxCell>
       </root>
